@@ -1,0 +1,33 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-family: "Lato",sans-serif;
+}
+/* nav related styles */
+nav{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav ul{
+    display:flex;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color:#181818;
+}
+.txt-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    color:white;
+    border: none;
+}
