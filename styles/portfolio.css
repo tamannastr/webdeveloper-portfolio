@@ -51,9 +51,9 @@ nav>ul{
 }
 .header{
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -143,6 +143,26 @@ gap: 50px;
     margin:30px 20px;
 }
 .download-cv{
-    align-items: center;
+    text-align: center;
     margin-top: 50px;
 }
+footer{
+    display:flex;
+    gap:100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+} 
+.contact input[type="text"],input[type="email"], textarea{
+    display:block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    color:#757575;
+    background: #fff;
+    border-radius: 5px;
+    border: 0;
+    width:100%;
+} 
